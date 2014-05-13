@@ -2,10 +2,13 @@ A tool for generating Markdown previews.
 
 ### Usage
 
-`go get github.com/kayleg/mdp`
+```
+go get github.com/kayleg/mdp
 
-`cd /directory/with/files.mdown`
-`mdp`
+cd /directory/with/files.mdown
+
+mdp
+```
 
 Open your browser to http://localhost:5000
 
@@ -20,9 +23,9 @@ Included stylesheet is inspired by SublimeText's Markdown Preview plugin.
 
 ### Dependecies
 
-https://github.com/wkhtmltopdf/wkhtmltopdf - Makes pdfs
-https://github.com/BakedSoftware/blackfriday - Markdown parser
-http://www.gorillatoolkit.org/pkg/mux - Nice url handler
+* https://github.com/wkhtmltopdf/wkhtmltopdf - Makes pdfs
+* https://github.com/BakedSoftware/blackfriday - Markdown parser
+* http://www.gorillatoolkit.org/pkg/mux - Nice url handler
 
 ### Improvements
 
