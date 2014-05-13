@@ -1,0 +1,29 @@
+A tool for generating Markdown previews.
+
+### Usage
+
+`go get github.com/kayleg/mdp`
+
+`cd /directory/with/files.mdown`
+`mdp`
+
+Open your browser to http://localhost:5000
+
+### Styles
+
+Create a stylesheet in the mdown files directory called markdown.css for folder
+specific styles.
+
+Create a stylesheet at `~/bin/markdown.css` for a global fallback
+
+Included stylesheet is inspired by SublimeText's Markdown Preview plugin.
+
+### Dependecies
+
+https://github.com/wkhtmltopdf/wkhtmltopdf - Makes pdfs
+https://github.com/BakedSoftware/blackfriday - Markdown parser
+http://www.gorillatoolkit.org/pkg/mux - Nice url handler
+
+### Improvements
+
+Autoreload html when source has been updated
