@@ -3,7 +3,6 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 body{
   color:#444;
   font-family: Helvetica;
-  font-size:12px;
   line-height:1.5em;
   background:#fefefe;
   width: 80%;
@@ -127,7 +126,6 @@ body{font-size:16px;}
 
 
 body {
-    font-size: 12px;
     line-height: 1.2em;
     font-family: Helvetica
 }
